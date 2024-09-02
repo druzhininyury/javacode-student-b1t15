@@ -12,8 +12,9 @@ public class StringBuilderWithUndo {
     public void undo() {
         if (snapshot != null) {
             builder.delete(0, builder.length());
+            builder.append(snapshot);
+            // snapshot remains by design
         }
-        builder.append(snapshot);
     }
 
     public int length() {
