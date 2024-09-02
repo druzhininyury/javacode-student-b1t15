@@ -1,1 +1,1 @@
-# javacode-student-b1t15
+#### Минимальная реализация аналога StringBuilder с однократным undo с использованием паттерна snapshot.
